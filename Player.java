@@ -78,7 +78,8 @@ public class Player {
         bagus.healtpoint= 5;
         
         Player terimakasih = new Player();
-        
+        Player start = new Player();
+        start.mulai();
         budi.run();
         bagus.run();
         budi.jarak=30;
