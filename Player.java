@@ -17,6 +17,9 @@ public class Player {
     int jarak ;
     boolean lelah = false; 
     
+    public void mulai(){
+        System.out.println("Hitungan ke tiga dimulai 3..2..1..");
+    }
     public void run(){
         System.out.println(this.nama +" mulai berlari...");
     }
@@ -42,7 +45,7 @@ public class Player {
     }
     
      // method tanpa return dan tanpa parameter
-    void minum (){
+   public void minum (){
         if (lelah){
             System.out.println(this.nama+ "pun minum sebotol air meneral");
         }else {
@@ -76,7 +79,6 @@ public class Player {
         
         Player terimakasih = new Player();
         
-        start mulai = new start();
         budi.run();
         bagus.run();
         budi.jarak=30;
